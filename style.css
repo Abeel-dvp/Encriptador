@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4fc;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-container {
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    resize: none;
+    width: 60%;
+
+    height: 60%;
+
+}
+
+.box-text {
+    width: 85%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.box-text::placeholder {
+    color: #0A3871;
+}
+
+.alert {
+    position: absolute;
+    top: 78%;
+    left: 14%;
+    display: flex;
+    color: #495057;
+
+}
+
+.container-buttoms {
+    position: absolute;
+    top: 85%;
+    height: 80px;
+    width: 65%;
+    padding-left: 15%;
+    padding-top: 15px;
+
+    margin-top: 10px;
+}
+
+.btn-encriptar {
+
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn-desencriptar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #527299;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn-desencriptar:hover {
+    background-color: #f4f4fc;
+    color: black;
+    border: 1px solid black;
+}
+
+
+.btn-encriptar:hover {
+    background-color: #f4f4fc;
+    color: black;
+    border: 1px solid black;
+}
+
+.section-2 {
+    display: block;
+    position: relative;
+    width: 23%;
+    height: 85%;
+
+    right: 10%;
+    padding-right: 20px;
+    background-color: #ffff;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.5);
+}
+
+
+.container-img {
+    position: absolute;
+    left: 5px;
+    top: 20px;
+    padding-top: 5px;
+}
+
+
+.img-alura {
+    width: 100%;
+}
+
+.container-parrafo {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+
+}
+
+
+.container-parrafo h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #343A40;
+
+}
+
+.container-parrafo p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    padding-top: 10px;
+}
+
+.container-result {
+    position: absolute;
+    top: 10%;
+    width: 80%;
+    height: 100%;
+    max-height: 500px;
+    padding: 0;
+    margin-left: 25px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-wrap: normal;
+    overflow: auto;
+
+
+
+}
+
+.container-result p {
+    color: #495057;
+    font-size: 25px;
+    max-width: 300px;
+
+
+}
+
+
+.container-copy {
+    display: flex;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+
+    top: 90%;
+    background-color: aqua;
+    margin-top: 40px;
+
+}
+
+.btn-copy {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    position: relative;
+    top: 46px;
+    left:39px;
+
+
+}
+
+.ocultar {
+    display: none;
+}
+
+.btn-copy:hover {
+    background-color: #0A3871;
+    color: #f4f4fc;
+}
+
+
+@media screen and (max-width: 600px) {
+    .logo {
+        display: block;
+        width: 90%;
+    }
+
+    .main {
+
+        display: block;
+        width: 100%;
+        height: 60%;
+        margin-bottom: 10px;
+    }
+
+    .text-container {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        left: 50px;
+        top: 51px;
+    }
+
+    .box-text {
+        width: 77%;
+        height: 86%;
+        border: none;
+
+
+        font-size: 35px;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+
+
+    .alert {
+        position: absolute;
+        top: 104%;
+        left: 13%;
+        width: 298px;
+        display: flex;
+
+    }
+
+    .container-buttoms {
+        display: block;
+        top: 108%;
+        height: 40%;
+        width: 100%;
+        padding-left: 10%;
+        padding-top: 15px;
+        margin-top: 20px;
+    }
+
+
+    .btn-encriptar {
+        width: 300px;
+        margin-bottom: 5px;
+        height: 67px;
+        border-radius: 24px;
+        font-size: 20px;
+        font-weight: 400;
+        border: none;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .btn-desencriptar {
+        width: 300px;
+        height: 67px;
+        border-radius: 24px;
+        font-size: 20px;
+        font-weight: 400;
+        border: none;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+
+    .section-2 {
+        position: relative;
+
+        width: 300px;
+        height: 100%;
+        top: 162%;
+        left: 8%;
+        padding-right: 20px;
+        border-radius: 32px;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .container-img {
+
+        left: 10%;
+
+        height: 52%;
+        width: 79%;
+
+    }
+
+    .container-parrafo {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 57%;
+        left: 2%;
+        word-wrap: break-word;
+    }
+
+    .btn-copy {
+        width: 300px;
+        height: 67px;
+
+
+        font-size: 16px;
+        font-weight: 400;
+
+        cursor: pointer;
+        position: absolute;
+        top: 30px;
+        left: 2px;
+    }
+
+    .container-result {
+        position: absolute;
+        top: 7%;
+        width: 88%;
+        height: 85%;
+        padding: 0;
+        margin-left: 27px;
+        word-wrap: break-word;
+        overflow: auto;
+    }
+
+}
