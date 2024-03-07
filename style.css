@@ -204,7 +204,7 @@ header {
 }
 
 .btn-copy {
-    width: 328px;
+    width: 73%;
     height: 67px;
     border-radius: 24px;
     background-color: #ffff;
@@ -215,8 +215,8 @@ header {
     border: 1px solid #0A3871;
     cursor: pointer;
     position: relative;
-    top: 46px;
-    left:39px;
+    top: 56px;
+    left: 13%;
 
 
 }
